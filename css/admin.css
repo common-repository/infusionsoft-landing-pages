@@ -1,0 +1,60 @@
+.infusionsoft_ilp label {
+    width: 200px;
+    display: inline-block;
+}
+
+.infusionsoft_ilp form {
+    margin-top: 30px;
+}
+
+.infusionsoft_ilp .infusionsoft_ilp_more_text {
+    color: #888;
+    display: none;
+}
+
+.infusionsoft_ilp .infusionsoft_ilp_info:before {
+    background-color: rgba(127, 127, 127, 0.4);
+    border-radius: 100px;
+    color: #FFF;
+    content: "?";
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    width: 16px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.infusionsoft_ilp .infusionsoft_ilp_info:hover::before {
+    background-color: rgba(127, 127, 127, 0.7);
+}
+
+.ifs-block {
+    background-color: white;
+    padding: 16px;
+    margin: 8px 0;
+}
+
+.landing-pages label {
+    width: auto;
+}
+
+.landing-pages li {
+    padding-top: 8px;
+}
+
+.landing-pages li label {
+    font-weight: bold;
+}
+
+
+#adminmenu #toplevel_page_ilp-landingpages + div.wp-menu-image:before {
+	content: url('../images/sidebar-logo.png');
+}
+
+#adminmenu #toplevel_page_ilp-landingpages.wp-menu-open div.wp-menu-image:before {
+	content: url('../images/sidebar-logo-mono.png');
+}
